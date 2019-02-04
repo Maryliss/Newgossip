@@ -27,7 +27,9 @@ $ télécharger le zip
 $ dézipper 
 $ chemin du dossier dans le terminal 
 $ bundle install (pour avoir les gems: gem 'table_print', gem 'faker', gem 'rspec-rails', gem 'table_print', gem 'factory_bot_rails') 
-$ rails db:migrate 
-$ rails db:seed 
+$ rails db:create
+$ rails db:migrate
+$ rails db:seed
+$ rails db:migrate:status
 $ rails s
-http://localhost:3000/static/home
+http://localhost:3000/home
