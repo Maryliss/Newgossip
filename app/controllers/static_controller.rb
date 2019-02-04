@@ -25,4 +25,7 @@ class StaticController < ApplicationController
   def contact
   end
 
+  def gossips
+  end
+
 end
