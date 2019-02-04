@@ -26,6 +26,10 @@ class StaticController < ApplicationController
   end
 
   def gossips
+  @gossip_author = Gossip.first.user
+  @gossip_title = Gossip.first.title
+  @gossip_content = Gossip.first.content
+  @gossip_date = Gossip.first.created_at
   end
 
 end
