@@ -32,4 +32,5 @@ $ rails db:migrate
 $ rails db:seed
 $ rails db:migrate:status
 $ rails s
+
 http://localhost:3000/home
